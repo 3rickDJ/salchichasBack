@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shoes",
+  "info": {
+    "singularName": "shoe",
+    "pluralName": "shoes",
+    "displayName": "shoe"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "modelName": {
+      "type": "string",
+      "default": "'N/A'",
+      "required": false
+    },
+    "sizeCm": {
+      "type": "float",
+      "default": 10
+    },
+    "price": {
+      "type": "float"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
